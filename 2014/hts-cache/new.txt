@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+09:34:41	101/101	---M--	200	added ('OK')	text/plain	etag:%2258ef9afb-65%22	http://web.archive.org/robots.txt		(from )
+09:34:42	41685/41685	---MCZ	200	added ('OK')	text/html	date:Tue,%2025%20Sep%202018%2013:34:40%20GMT	http://web.archive.org/web/20140625104933/http://www.ticketsummit.org/	C:/My%20Web%20Sites/2014/web.archive.org/web/20140625104933/http_/www.ticketsummit.org/index.html	(from )
+09:34:43	7403/7403	---MCZ	200	added ('OK')	application/x-javascript	date:Thu,%2015%20Mar%202018%2021:44:13%20GMT	http://archive.org/includes/analytics.js?v=cf34f82	C:/My%20Web%20Sites/2014/archive.org/includes/analytics2a5b.js	(from http://web.archive.org/web/20140625104933/http://www.ticketsummit.org/)
+09:34:43	35/35	---M--	200	added ('OK')	image/gif	etag:%225702ee2b-23%22	http://analytics.archive.org/0.gif	C:/My%20Web%20Sites/2014/analytics.archive.org/0.gif	(from http://archive.org/includes/analytics.js?v=cf34f82)
