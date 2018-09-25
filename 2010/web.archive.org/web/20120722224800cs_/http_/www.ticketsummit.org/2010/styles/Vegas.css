@@ -1,0 +1,126 @@
+body
+{
+    background-image: url(../../../../../20120924154452im_/http_/www.ticketsummit.org/images/2010/NYC_structure_images/bg_texture.jpg);
+}
+
+#tsLogo
+{
+    display: block;
+    height: 45px;
+    width: 482px;
+    background-image: url(../../../../../20120923191310im_/http_/www.ticketsummit.org/images/2010/NYC_structure_images/ts_logo.png);
+}
+
+#register
+{
+    width: 295px;
+    position: absolute;
+    left: 790px;
+    top: 40px;
+    height: 196px;
+    background-image: url(../../../../../20120924154455im_/http_/www.ticketsummit.org/images/2010/vegas_structure_images/register_sprite.png);
+    background-position: left top;
+    display: block;
+    z-index: 200;
+}
+
+#register:hover
+{
+    background-position: left bottom;
+}
+
+#containerwrapper
+{
+    background-image: url(../../../../../20120924154448im_/http_/www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerwrapper.jpg);
+    background-repeat: repeat-y;
+}
+
+#container
+{
+    background-image: url(../../../../../20120722224800im_/http_/www.ticketsummit.org/images/2010/vegas_structure_images/bg_container.jpg);
+    background-repeat: no-repeat;
+}
+
+#homeSnapshot
+{
+    position: absolute;
+    right: 10px;
+    top: 280px;
+    height: 215px;
+    width: 210px;
+    background-image: url(../../../../../20120920020046im_/http_/www.ticketsummit.org/images/2010/common_images/pictures/snapshots.png);
+    background-repeat: no-repeat;
+}
+
+#containerbottom
+{
+    height: 2px;
+    width: 1000px;
+    background-image: url(../../../../../20120722224800im_/http_/www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#iggliImg
+{
+    cursor: pointer;
+    width: 98px;
+    height: 38px;
+    display: block;
+    background: url(../../../../../20120722224800im_/http_/www.ticketsummit.org/ppimages/iggli_invite_sprite.png) no-repeat bottom left;
+}
+
+#iggliImg:hover
+{
+    background-position: top left;
+}
+
+div.ahover {
+    position: absolute;
+}
+
+ul.socialNetworking {
+    padding-left: 5px;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+}
+
+ul.socialNetworking li {
+    position: relative;
+    z-index: 50;
+    float: left;
+    margin: 2px;
+    line-height: 1em;
+    padding: 2px 2px 0;
+}
+
+ul.socialNetworking div.ahover {
+    background: #333333;
+    border: 2px solid #444444;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+/*
+     FILE ARCHIVED ON 22:48:00 Jul 22, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:48:58 Sep 25, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 134.138 (3)
+  esindex: 0.008
+  captures_list: 151.554
+  CDXLines.iter: 9.923 (3)
+  PetaboxLoader3.datanode: 133.075 (4)
+  exclusion.robots: 0.169
+  exclusion.robots.policy: 0.157
+  RedisCDXSource: 4.84
+  PetaboxLoader3.resolve: 45.521
+  load_resource: 58.5
+*/

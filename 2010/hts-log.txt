@@ -1,0 +1,43 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 25 Sep 2018 09:48:53 at http://web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx -O1 "C:\My Web Sites\2010" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:48:56	Error: 	"Connect Error" (-4) after 2 retries at link web.archive.org/robots.txt (from primary/primary)
+09:49:30	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/static/js/wbhack.js?v=1536297681.0 (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:49:58	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/jquery-1.3.2.min.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:49:58	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/globalScripts.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:49:58	Error: 	"NOT FOUND" (404) at link web.archive.org/web/20101121060122/https://tickettransaction2.com/ts/brokers/01504-008/images/ts2010_header.jpg (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:49:58	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/static/images/toolbar/wm_tb_prv_on.png (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:49:58	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/vegas_structure_images/bg_container.jpg (from web.archive.org/web/20120722224800cs_/http://www.ticketsummit.org/2010/styles/Vegas.css)
+09:49:59	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png (from web.archive.org/web/20120722224800cs_/http://www.ticketsummit.org/2010/styles/Vegas.css)
+09:49:59	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/ppimages/iggli_invite_sprite.png (from web.archive.org/web/20120722224800cs_/http://www.ticketsummit.org/2010/styles/Vegas.css)
+09:49:59	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20091027213603im_/http://www.ticketsummit.org/ppimages/pdf.gif (from web.archive.org/web/20091027213603cs_/http://www.ticketsummit.org/tsbbqstyles/2010-aesthetics.css)
+09:49:59	Error: 	"NOT FOUND" (404) at link web.archive.org/web/20091027213603im_/http://www.ticketsummit.org/ppimages/more.gif (from web.archive.org/web/20091027213603cs_/http://www.ticketsummit.org/tsbbqstyles/2010-aesthetics.css)
+09:49:59	Error: 	"NOT FOUND" (404) at link web.archive.org/web/20091027213603im_/http://www.ticketsummit.org/ppimages/less.gif (from web.archive.org/web/20091027213603cs_/http://www.ticketsummit.org/tsbbqstyles/2010-aesthetics.css)
+09:49:59	Error: 	"Not Found" (404) at link web.archive.org/web/20110228081056im_/http://www.ticketsummit.org/tsbbqstyles/img/fancy_loading.gif (from web.archive.org/web/20091027213603cs_/http://www.ticketsummit.org/tsbbqstyles/2010-aesthetics.css)
+09:49:59	Warning: 	FOUND for web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/jquery-1.3.2.min.js
+09:49:59	Warning: 	Warning moved treated for web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/jquery-1.3.2.min.js (real one is web.archive.org/web/20120420200446js_/http://www.ticketsummit.org/2010/scripts/jquery-1.3.2.min.js)
+09:50:00	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/globalScripts.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:50:02	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/static/images/toolbar/wm_tb_prv_on.png (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:50:02	Warning: 	FOUND for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/vegas_structure_images/bg_container.jpg
+09:50:02	Warning: 	Warning moved treated for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/vegas_structure_images/bg_container.jpg (real one is web.archive.org/web/20120924154501im_/http://www.ticketsummit.org/images/2010/vegas_structure_images/bg_container.jpg)
+09:50:02	Warning: 	FOUND for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png
+09:50:02	Warning: 	Warning moved treated for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png (real one is web.archive.org/web/20120923191306im_/http://www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png)
+09:50:02	Warning: 	FOUND for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/ppimages/iggli_invite_sprite.png
+09:50:02	Warning: 	Warning moved treated for web.archive.org/web/20120722224800im_/http://www.ticketsummit.org/ppimages/iggli_invite_sprite.png (real one is web.archive.org/web/20120920020105im_/http://www.ticketsummit.org/ppimages/iggli_invite_sprite.png)
+09:50:02	Warning: 	FOUND for web.archive.org/web/20091027213603im_/http://www.ticketsummit.org/ppimages/pdf.gif
+09:50:02	Warning: 	Warning moved treated for web.archive.org/web/20091027213603im_/http://www.ticketsummit.org/ppimages/pdf.gif (real one is web.archive.org/web/20110228081002im_/http://www.ticketsummit.org/ppimages/pdf.gif)
+09:50:03	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120420200446js_/http://www.ticketsummit.org/2010/scripts/jquery-1.3.2.min.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:50:03	Warning: 	FOUND for web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/globalScripts.js
+09:50:03	Warning: 	Warning moved treated for web.archive.org/web/20101121060122js_/http://www.ticketsummit.org:80/2010/scripts/globalScripts.js (real one is web.archive.org/web/20120420200514js_/http://www.ticketsummit.org/2010/scripts/globalScripts.js)
+09:50:05	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120923191306im_/http://www.ticketsummit.org/images/2010/NYC_structure_images/bg_containerbottom.png (from web.archive.org/web/20120722224800cs_/http://www.ticketsummit.org/2010/styles/Vegas.css)
+09:50:05	Warning: 	Retry after error -4 (Connect Error) at link web.archive.org/web/20120920020105im_/http://www.ticketsummit.org/ppimages/iggli_invite_sprite.png (from web.archive.org/web/20120722224800cs_/http://www.ticketsummit.org/2010/styles/Vegas.css)
+09:50:05	Error: 	"Connect Error" (-4) after 2 retries at link web.archive.org/web/20120420200446js_/http://www.ticketsummit.org/2010/scripts/jquery-1.3.2.min.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+09:50:05	Error: 	"Connect Error" (-4) after 2 retries at link web.archive.org/web/20120420200514js_/http://www.ticketsummit.org/2010/scripts/globalScripts.js (from web.archive.org/web/20101121060122/http://www.ticketsummit.org:80/2010/vegas/default.aspx)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 13 seconds : 79 links scanned, 53 files written (481503 bytes overall) [579640 bytes received at 7940 bytes/sec], 94742 bytes transferred using HTTP compression in 6 files, ratio 27%, 5.7 requests per connection
+(7 errors, 25 warnings, 0 messages)

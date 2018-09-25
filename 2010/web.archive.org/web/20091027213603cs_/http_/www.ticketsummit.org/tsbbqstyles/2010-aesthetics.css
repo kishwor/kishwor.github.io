@@ -1,0 +1,579 @@
+/**********************POSITIONING TOOLS**********************/
+
+.lefty 
+{
+    float: left;
+}
+
+.righty 
+{
+    float: right;
+}
+
+.clrBoth 
+{
+    clear: both;
+}
+
+.dispBlock
+{
+    display: block;
+}
+
+/**********************PADDING**********************/
+
+/*used mostly for text with a background color to add a quarter font-size padding to the left and right*/
+.QcushionLR
+{
+    padding-left: .25em;
+    padding-right: .25em;
+}
+
+/**********************CURSORS**********************/
+
+a
+{ 
+    cursor: pointer;
+}
+
+/**********************TEXT, FONTS**********************/
+
+.alignRight
+{
+    text-align: right;
+}
+
+.alignCent 
+{
+    text-align: center;
+}
+
+.alignJust
+{
+    text-align: justify;
+}
+
+.fontSmall 
+{
+    font-size: 12px;
+}
+
+.fontXSmall
+{
+    font-size: 11px;
+}
+
+.fontXXSmall
+{
+    font-size: 10px;
+}
+
+.txtULine
+{
+    text-decoration: underline;
+}
+
+.txtNorm 
+{
+    font-weight: normal;
+}
+
+.txtBold 
+{
+    font-weight: bold;
+}
+
+.txtItalic 
+{
+    font-style: italic;
+}
+
+.txtBlue
+{
+    color: #4fb7ff;
+}
+
+.txtBlack 
+{
+    color: Black;
+}
+
+.txtWhite
+{
+    color: White;
+}
+
+.txtGreen
+{
+    color: #3E9232;
+}
+
+/**********************BACKGROUNDS**********************/
+
+.blackBG
+{
+    background-color: Black;
+}
+
+.cleanSlate 
+{
+    background-color: White;
+}
+
+/*-------Used on Press Room Page-------*/
+.dkgrayTable
+{
+  background-color: #DDDDDD;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px:
+  padding-right: 5px;
+}
+
+.ltgrayTable
+{
+  background-color: #EEEEEE;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px:
+  padding-right: 5px;
+}
+
+/**********************BORDERS**********************/
+
+.borderBlue
+{
+    border: 1px solid #00A3E6;
+}
+
+.hoverBorderBlue:hover
+{
+    border: 1px solid #00A3E6;
+}
+
+.hdrBluULine
+{
+    border-bottom: 2px solid #00A3E6;
+}
+
+.sponsorBorderGray
+{
+border: 1px solid #CCCCCC;
+}
+
+.hoverBorderBlue:hover 
+{
+border: 1px solid #00A3E6;
+}
+
+.borderGray
+{
+    border: 2px solid #666666;
+}
+
+table.borderGray td
+{
+    border-right: 2px solid #BBBBBB;
+    padding: 5px;
+}
+
+div.developmentOutline 
+{
+    border: 1px solid red;
+}
+
+table.developmentOutline, tr.developmentOutline, td.developmentOutline 
+{
+    border: 1px solid blue;
+}
+
+.imgColoredBorder 
+{
+    background-color: #00A3E6;
+    padding: 2px;
+    border: 7px solid black;
+}
+
+/*----------Discounts Page Tables----------*/
+
+.discountsTable
+{
+  background: #ffffff;
+  border: 3px dashed #00A3E6;
+}
+
+.discountsTable td
+{
+  padding: 10px;
+}
+
+/**********************UL/OL CLASSES/IDS**********************/
+
+ul li ul, ol li ol, ul li ol, ol li ul
+{
+    margin: 0px;
+}
+
+/*-------galleryUL-------*/
+.galleryUL
+{
+    margin: 0;
+}
+
+.galleryUL li
+{
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+/*-------NYCGallery2009UL-------*/
+#NYCGallery2009UL
+{
+    float: left;
+    width: 118px;
+}
+
+#NYCGallery2009UL li
+{
+    height: 45px;
+}
+
+/*-------VegasGallery2009UL-------*/
+#VegasGallery2009UL
+{
+    width: 740px;
+}
+
+#VegasGallery2009UL li
+{
+    height: 30px;
+}
+
+
+/*-------squareUL-------*/
+.squareUL, .squareUL li
+{
+    list-style-type: square;
+}
+
+.squareUL li
+{
+    margin-left: 15px;
+}
+
+/*-------decimalOL-------*/
+.decimalOL, .decimalOL li
+{
+  list-style-type: decimal;
+  margin: 10px;
+}
+
+.decimalOL li
+{
+  margin-left: 15px;
+}
+
+/*-------loweralphaOL-------*/
+.loweralphaOL, .loweralphaOL li
+{
+   list-style-type: lower-alpha;
+   margin: 10px;
+}
+
+.loweralphaOL li
+{
+  margin-left: 30px;
+}
+
+/**********************MEDIA PAGE - ACCORDIAN MENU + POPUP VIDEOS**********************/
+
+.empty, .vid {
+    margin-left: 7px;
+}
+
+.empty, .pdf, .vid {
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: right;
+    height: 18px;
+    width: 18px;
+}
+
+.pdf {
+    background-image:url(../../../../20091027213603im_/http_/www.ticketsummit.org/ppimages/pdf.gif);
+}
+
+.vid {
+    background-image:url(../../../../20110228080650im_/http_/www.ticketsummit.org/ppimages/vid_black.png);
+}
+
+ul.menu, ul.menu ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 355px;
+}
+
+ul.menu a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.menu li {
+    margin-top: 1px;
+}
+
+ul.menu li a {
+    background: #444444;
+    color: #fff;	
+    padding: 5px 5px 5px 25px;
+}
+
+ul.menu li a:hover {
+    background: #000;
+}
+
+ul.menu li a, ul.menu li a:hover {
+    background-image:url(../../../../20091027213603im_/http_/www.ticketsummit.org/ppimages/more.html);
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+
+ul.menu li a.less, ul.menu li a.less:hover {
+    background-image:url(../../../../20091027213603im_/http_/www.ticketsummit.org/ppimages/less.html);
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+
+ul.menu li a.less {
+    background-color: #000;
+}
+
+ul.menu li ul li a, ul.menu li ul li a:hover {
+    background: none;
+    padding: none;
+    height: 12px;
+}
+
+ul.menu li ul li {
+    color: #000;
+    padding: 4px 8px 4px 25px;
+    background-color: #bbbbbb;
+}
+
+ul.menu li ul li:hover {
+    background: #aaa;
+    border-left: 5px #000 solid;
+    padding-left: 20px;
+}
+
+div#fancy_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: none;
+    z-index: 60;
+}
+
+div#fancy_wrap {
+    text-align: left;
+}
+
+div#fancy_loading {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    overflow: hidden;
+    background: transparent;
+    z-index: 100;
+}
+
+div#fancy_loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background: transparent url(../../../../20110228080647im_/http_/www.ticketsummit.org/ppimages/fancy_progress.png) no-repeat;
+}
+
+div#fancy_loading_overlay {
+    position: absolute;
+    background-color: #FFF;
+    z-index: 30;
+}
+
+div#fancy_loading_icon {
+    position: absolute;
+    background: url(../../../../20110228081056im_/http_/www.ticketsummit.org/tsbbqstyles/img/fancy_loading.html) no-repeat;
+    z-index: 35;
+    width: 16px;
+    height: 16px;
+}
+
+div#fancy_outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    padding: 18px 18px 33px 18px;
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+    display: none;
+}
+
+div#fancy_inner {
+    position: relative;
+    width:100%;
+    height:100%;
+    border: 1px solid #BBB;
+    background: #FFF;
+}
+
+div#fancy_content {
+    margin: 0;
+    z-index: 100;
+    position: absolute;
+}
+
+div#fancy_div {
+    background: #000000;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+img#fancy_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border:0; 
+    padding: 0; 
+    margin: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+div#fancy_close {
+    position: absolute;
+    top: -12px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    background: url(../../../../20110228080947im_/http_/www.ticketsummit.org/ppimages/fancy_closebox.png) top left no-repeat;
+    cursor: pointer;
+    z-index: 181;
+    display: none;
+}
+
+div#fancy_bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 70;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+	
+div.fancy_bg {
+    position: absolute;
+    display: block;
+    z-index: 70;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div.fancy_bg_n {
+    top: -18px;
+    width: 100%;
+    height: 18px;
+    background-color: transparent;
+    background-image: url(../../../../20110228081026im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_n.png);
+    background-repeat: repeat-x;
+}
+
+div.fancy_bg_ne {
+    top: -18px;
+    right: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(../../../../20110228080918im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_ne.png) no-repeat;
+}
+
+div.fancy_bg_e {
+    right: -13px;
+    height: 100%;
+    width: 13px;
+    background: transparent url(../../../../20110228080805im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_e.png) repeat-y;
+}
+
+div.fancy_bg_se {
+    bottom: -18px;
+    right: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(../../../../20110228080859im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_se.png) no-repeat;
+}
+
+div.fancy_bg_s {
+    bottom: -18px;
+    width: 100%;
+    height: 18px;
+    background: transparent url(../../../../20110228080950im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_s.png) repeat-x;
+}
+
+div.fancy_bg_sw {
+    bottom: -18px;
+    left: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(../../../../20110228080708im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_sw.png) no-repeat;
+}
+
+div.fancy_bg_w {
+    left: -13px;
+    height: 100%;
+    width: 13px;
+    background: transparent url(../../../../20110228080610im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_w.png) repeat-y;
+}
+
+div.fancy_bg_nw {
+    top: -18px;
+    left: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(../../../../20110228080819im_/http_/www.ticketsummit.org/ppimages/fancy_shadow_nw.png) no-repeat;
+}
+/*
+     FILE ARCHIVED ON 21:36:03 Oct 27, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:48:59 Sep 25, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 49.726 (3)
+  esindex: 0.006
+  captures_list: 67.775
+  CDXLines.iter: 11.765 (3)
+  PetaboxLoader3.datanode: 53.312 (4)
+  exclusion.robots: 0.155
+  exclusion.robots.policy: 0.144
+  RedisCDXSource: 3.695
+  PetaboxLoader3.resolve: 292.706
+  load_resource: 318.714
+*/
