@@ -1,0 +1,53 @@
+.text {
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+}
+input {
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+}
+select {
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+}
+textarea {
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+}
+
+.style1 {	
+    font-size:18pt;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #330000;
+}
+.style2 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+.style5 {	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style7 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #841120; font-size: 14px; }
+/*
+     FILE ARCHIVED ON 04:55:18 May 12, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:21:15 Sep 25, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 69.118 (3)
+  esindex: 0.011
+  captures_list: 86.527
+  CDXLines.iter: 11.89 (3)
+  PetaboxLoader3.datanode: 95.837 (4)
+  exclusion.robots: 0.272
+  exclusion.robots.policy: 0.255
+  RedisCDXSource: 0.786
+  PetaboxLoader3.resolve: 26.18
+  load_resource: 77.161
+*/
