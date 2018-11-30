@@ -1,0 +1,45 @@
+#lightbox{    position: absolute;    left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%    ; }
+
+#imageData{    padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }    
+#imageData #caption{ font-weight: bold;    }
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;    }            
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}         
+
+#overlay1{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+.datepickerControl { border:1px solid #999999; background-color:#EEEEEE; padding:5px; cursor:pointer; }
+.datepickerControl td { text-align:center; font-family:sans-serif; font-size:11px; padding:1px; }
+.datepickerControl tr.monthLabel td { background-color:#FFFFFF; border:1px solid #999999; font-weight: bold; }
+.datepickerControl tr.navigation td:hover { text-decoration: underline; }
+.datepickerControl tr.dayLabel td { border: 1px solid #003366; background-color: #003366; color: white; font-weight: bold; }
+.datepickerControl td.day, .datepickerControl td.dayothermonth { cursor: pointer; background-color:    #FFFFFF; border: 1px solid #EEEEEE; width: 2em; }
+.datepickerControl td.dayothermonth { color:#999999; font-style: italic; }
+.datepickerControl td.day:hover { background-color:#EBE4C0; }
+.datepickerControl td.weekend { background-color: #CCCCCC; font-style: italic; }
+.datepickerControl td.today { font-weight:bold; }
+.datepickerControl td.hour {  background-color:#FFFFFF; border: 1px solid #EEEEEE; width:2em; }
+.datepickerControl td.minute {  background-color: #FFFFFF; border:1px solid #EEEEEE; width:2em; }
+.datepickerControl td input,.datepickerControl td button { text-align:center; }
+.datepickerControl td.ampm { cursor: pointer; background-color:    #CCCCCC; border:1px solid #EEEEEE; width:2em; }
+.datepickerControl td.current { font-weight:bold; background-color:#EBC2C0; }
+.datepickerControl input.current { background-color:#EBC2C0; }
+.datepickerControl td.current:hover { background-color:    #EBC2C0; }
